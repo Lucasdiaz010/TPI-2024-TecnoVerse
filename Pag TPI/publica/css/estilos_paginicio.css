@@ -1,0 +1,89 @@
+.menu-container {
+    position: fixed;
+    top: 0;
+    right: 0px;
+    left: 0;
+    width: calc(100% 0px);
+    background-color:#f32723;
+    padding: 1px;
+}
+
+.menu-boton {
+    background-color: #f32723;
+    color: white;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    float: right;
+    margin-right: 20px;
+}
+
+.menu {
+    display: none;
+    text-align: right;
+    clear: both;
+    margin-right: 10px;
+}
+
+.menu a {
+    display: block;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.menu-imagen {
+    max-width: 5%; 
+    height: auto; 
+    margin-bottom: 10px; 
+    border-radius: 80px ;
+}
+
+.nombre_esc {
+    color: white; 
+    font-size: 30px; 
+    padding: 20px;
+    float: right;
+    margin-right: 730px
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150vh; 
+    background-color: #f4f4f4; 
+}
+
+.bienvenida {
+    text-align: center;
+    margin-top: 2%; 
+}
+
+.bienvenida-box {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.foto_presentacion {
+    max-width: 100%; 
+    height: auto; 
+    border-radius: 7px;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 0px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+

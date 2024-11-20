@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Pagina de Inicio</title>
+    <link rel="stylesheet" href="/css/estilos_paginicio.css">
+</head>
+<body>
+
+
+    <div class="menu-container">
+        <button class="menu-boton" onclick="toggleMenu()">
+            &#9776; Menú
+        </button>
+        <img src="/imagenes/logo.jpg" alt="logo" class="menu-imagen">
+        <span class="nombre_esc">Colegio Provincial Dr Ernesto</span>
+        <div id="menu" class="menu">
+            <a href="/pagdeinicio">Inicio</a>
+            <a href="/notas">Notas</a>
+            <a href="perfil">Perfil</a>
+            <a href="gestionar">Gestionar Alumnos</a>
+        </div>
+    </div>
+
+    <script>
+        function toggleMenu() {
+            var menu = document.getElementById('menu');
+            if (menu.style.display === 'block') {
+                menu.style.display = 'none';
+            } else {
+                menu.style.display = 'block';
+            }
+        }
+    </script> 
+
+<footer class="footer">
+    <p>&copy; Colegio Provinvial Dr Ernesto Guevara.</p>
+</footer>
+
+
+<div class="bienvenida">
+    <div class="bienvenida-box">
+        <h1>¡Bienvenido a la pagina del colegio Guevara!</h1>
+        <p>Estamos encantados de tenerte aquí. En esta web vas a poder ver tus notas.</p>
+    </div>
+    <img src="/imagenes/fotoescuela.jpg" alt="Imagen de Presentación" class="foto_presentacion">
+</div>
+
+</body>
+</html> 
