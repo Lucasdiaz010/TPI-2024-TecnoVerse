@@ -1,4 +1,4 @@
-Actualizacion del codigo despues de agregar las cosas solicitadas en practicas profesionalizantes. 
+Actualizacion del codigo despues de agregar las cosas solicitadas en practicas profesionalizantes y programacion. 
 
 Agregado:
 -Pagina responsiva
