@@ -1,2 +1,7 @@
-Buenas tardes profe, vuelvo a subir mi codigo ya que no se habia subido completo. Igualmente el codigo se encuentra alojado en mi drive compartido que entregue.
+Actualizacion del codigo despues de agregar las cosas solicitadas en practicas profesionalizantes. 
 
+Agregado:
+-Pagina responsiva
+-Enlaces externos
+-Visualizacion de las notas en el rol alumnado para que se puedan ver las notas cargadas.
+-Se pueden reemplazar las notas, se destruyen las notas anteriormente puestas y se guardan las nuevas, esto hace que en la base de datos no queden guardada las notas que ya no se usan y solo esten alojadas las ultimas cargadas para cada informe, cuatrimestre.
